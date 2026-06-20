@@ -1,0 +1,56 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background:#fafafa;
+  color:#1f1f1f;
+  font-family:Georgia, serif;
+}
+
+.container{
+  max-width:800px;
+  margin:auto;
+  padding:80px 24px;
+}
+
+.cover{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+
+.cover h1{
+  font-size:2.2rem;
+  margin-bottom:16px;
+}
+
+.cover p{
+  color:#666;
+  margin-bottom:32px;
+}
+
+.button{
+  text-decoration:none;
+  color:white;
+  background:black;
+  width:fit-content;
+  padding:12px 24px;
+  border-radius:999px;
+}
+
+#surat{
+  margin-top:80px;
+}
+
+#surat p{
+  line-height:2;
+  margin-bottom:28px;
+}
