@@ -9,7 +9,12 @@ html{
 }
 
 body{
-  background:#fafafa;
+  background:linear-gradient(
+    180deg,
+    #dce8d4 0%,
+    #eef4ea 100%
+  );
+
   color:#1f1f1f;
   font-family:Georgia, serif;
 }
